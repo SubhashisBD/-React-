@@ -1,3 +1,8 @@
+
+import React from "react";
+import ReactDOM from "react-dom/client";
+// "react " - refers to the react inside node modules
+
 /*
 const heading = React.createElement("h1", 
     {id:"heading"}, 
