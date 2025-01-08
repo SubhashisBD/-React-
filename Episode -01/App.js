@@ -8,8 +8,11 @@ const heading = React.createElement("h1",
     {id:"heading"}, 
     "Hello World!");
 // heading is a object here as react element.
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(heading);
+
+// ReactDOM is used to dealing with brower.It takes the object converted to html and put it in the browser.
 // Render method responsible for create a h1 tag and put in the Dom 
 */
 
