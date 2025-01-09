@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "This is namaste react",
   "scripts": {
-    "start": "parcel \"./Episode-03/index3.html\"",
-    "buid": "parcel build \"./Episode -01/index.html\"",
+    "start": "parcel \"./Episode-04/index4.html\"",
+    "buid": "parcel build \"./Episode -04/index.html\"",
     "test": "jest"
   },
   "repository": {
