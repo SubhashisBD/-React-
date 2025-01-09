@@ -18,20 +18,19 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(jsxHeading);
 
 // React Functional Component => Function that returns a React Element.
-// Component Composition => Combine multiple components to create a new component. 
+// Component Composition => Combine multiple components to create a new component.
 // Component should be Capitalized.
 const number = 1000;
 const HeadingComponent = () => {
   return (
     <div id="container">
       {/* <JsxHeading />  or <JsxHeading></JsxHeading> Both are same. jsxHeading()*/}
-      {number +1286}
+      {number + 1286}
       {jsxHeading}
       <h1>BhanjDeo is Hereeeeeeeeeee!</h1>
     </div>
   );
 };
-
 root.render(<HeadingComponent />);
 
 // Class Based Component - OLD
