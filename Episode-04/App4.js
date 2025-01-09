@@ -10,6 +10,9 @@ console.log("BhanjDeo");
  * Body
  *  - Search Box
  *  - Resturant Card
+ *    -Img
+ *    -Name
+ *    -Star Rating,Cuisine
  * Footer
  *  - Copyright
  *  - Links
@@ -39,12 +42,31 @@ const Header = () => {
   );
 };
 
+const Resturantcard = () => {
+  return (
+    <div className="res-card">
+      <h3>Meghna Foods</h3>
+    </div>
+  );
+};
+
+const Body = () => {
+  return (
+    <div className="body">
+      <div className="search">Search</div>
+      <div className="res-container">
+        <Resturantcard />
+      </div>
+    </div>
+  );
+};
+
 const AppLayout = () => {
   return (
     <div className="app">
       {/* Header */}
       <Header />
-      // Body //Footer
+      <Body />
     </div>
   );
 };
